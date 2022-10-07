@@ -1,6 +1,6 @@
 body {
     margin: 0 auto;
-    background-color: black;
+    background-color: gray;
 }
 
 heading {
@@ -9,6 +9,7 @@ heading {
     align-items: center;
     color: white;
     font-size: 8vh;
+    margin: 4vh;
 }
 
 .search {
@@ -32,6 +33,7 @@ heading {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 10px;
 }
 
 .character-buttons {
@@ -39,4 +41,38 @@ heading {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    margin: 5px;
+    height: 5vh;
+}
+
+button {
+    /* margin: 5px; */
+    background-color: black;
+    color: white;
+    width: 25%;
+    height: 100%;
+}
+
+button:hover {
+    background-color: gray;
+}
+
+.button {
+    /* margin: 5px; */
+    background-color: black;
+    color: white;
+    
+}
+.button:hover {
+    background-color: gray;
+}
+
+img {
+    width: 80%;
+    height: 40vh;
+}
+
+p {
+    color: white;
+    font-size: 1.5em;
 }
