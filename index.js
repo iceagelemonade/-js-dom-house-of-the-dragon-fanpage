@@ -13,7 +13,7 @@ class CharacterCard {
 //////////////////////////////
 // Current Characters
 /////////////////////////////
-const rhaenyraTargaryen = new CharacterCard("Rhaenyra Targaryen", "./character-images/rhaenyra.png","Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere qui velit similique, consequuntur vel delectus nostrum. Natus odit eos excepturi quas facere ea totam temporibus! Perspiciatis ut quisquam ea reiciendis!","Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere qui velit similique, consequuntur vel delectus nostrum. Natus odit eos excepturi quas facere ea totam temporibus! Perspiciatis ut quisquam ea reiciendis!")
+const rhaenyraTargaryen = new CharacterCard("Rhaenyra Targaryen", "./character-images/rhaenyra.png","Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere qui velit similique, consequuntur vel delectus nostrum. Natus odit eos excepturi quas facere ea totam temporibus! Perspiciatis ut quisquam ea reiciendis! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere qui velit similique, consequuntur vel delectus nostrum. Natus odit eos excepturi quas facere ea totam temporibus! Perspiciatis ut quisquam ea reiciendis! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere qui velit similique, consequuntur vel delectus nostrum. Natus odit eos excepturi quas facere ea totam temporibus! Perspiciatis ut quisquam ea reiciendis! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere qui velit similique, consequuntur vel delectus nostrum. Natus odit eos excepturi quas facere ea totam temporibus! Perspiciatis ut quisquam ea reiciendis! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere qui velit similique, consequuntur vel delectus nostrum. Natus odit eos excepturi quas facere ea totam temporibus! Perspiciatis ut quisquam ea reiciendis! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere qui velit similique, consequuntur vel delectus nostrum. Natus odit eos excepturi quas facere ea totam temporibus! Perspiciatis ut quisquam ea reiciendis!","Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere qui velit similique, consequuntur vel delectus nostrum. Natus odit eos excepturi quas facere ea totam temporibus! Perspiciatis ut quisquam ea reiciendis!")
 
 const alicentHightower = new CharacterCard("Alicent Hightower", "./character-images/alicent.jpg","Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere qui velit similique, consequuntur vel delectus nostrum. Natus odit eos excepturi quas facere ea totam temporibus! Perspiciatis ut quisquam ea reiciendis!","Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere qui velit similique, consequuntur vel delectus nostrum. Natus odit eos excepturi quas facere ea totam temporibus! Perspiciatis ut quisquam ea reiciendis!")
 
@@ -102,7 +102,7 @@ const characterDisplay = (element) => {
             targetIndex = ind
         }
     })
-    const newText = document.createElement('div')
+    const newText = document.createElement('article')
     newText.classList.add('about')
     const node = element.target.innerText == 'Bio'?characterArray[targetIndex].bio:characterArray[targetIndex].status
     console.log(node)
